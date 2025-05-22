@@ -45,20 +45,7 @@ public class CustomerController {
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	@GetMapping("/view_SanctionedCustomer/{sanctioned}")
 	public ResponseEntity<List<Customer>> viewSanctionedCustomer(@PathVariable("sanctioned") LoanStatus sanctioned)
 	{
